@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyDataLibrary", "RickAndMortyDataLibrary\RickAndMortyDataLibrary.csproj", "{5F7CE994-7B7C-476F-925E-FD60F84880FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyDataLibraryTests", "RickAndMortyDataLibraryTests\RickAndMortyDataLibraryTests.csproj", "{CF152FCA-AD1B-4CB9-AFFD-43AF7A2AEC6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyConsoleApp", "RickAndMortyConsoleApp\RickAndMortyConsoleApp.csproj", "{7D2A86C7-3746-4A16-991E-D2311A0EA70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyWebApp", "RickAndMortyWebApp\RickAndMortyWebApp.csproj", "{39DDFE06-FDD5-4F7F-8040-6B18572821EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyWebAppTests", "RickAndMortyWebAppTests\RickAndMortyWebAppTests.csproj", "{4FEDF13C-7553-4EB8-8B95-EF12641884E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{695B1419-1949-4A57-BD3F-C518F9F9FFD6}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F7CE994-7B7C-476F-925E-FD60F84880FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7CE994-7B7C-476F-925E-FD60F84880FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7CE994-7B7C-476F-925E-FD60F84880FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7CE994-7B7C-476F-925E-FD60F84880FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF152FCA-AD1B-4CB9-AFFD-43AF7A2AEC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF152FCA-AD1B-4CB9-AFFD-43AF7A2AEC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF152FCA-AD1B-4CB9-AFFD-43AF7A2AEC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF152FCA-AD1B-4CB9-AFFD-43AF7A2AEC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2A86C7-3746-4A16-991E-D2311A0EA70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2A86C7-3746-4A16-991E-D2311A0EA70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2A86C7-3746-4A16-991E-D2311A0EA70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2A86C7-3746-4A16-991E-D2311A0EA70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DDFE06-FDD5-4F7F-8040-6B18572821EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DDFE06-FDD5-4F7F-8040-6B18572821EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DDFE06-FDD5-4F7F-8040-6B18572821EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DDFE06-FDD5-4F7F-8040-6B18572821EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEDF13C-7553-4EB8-8B95-EF12641884E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEDF13C-7553-4EB8-8B95-EF12641884E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEDF13C-7553-4EB8-8B95-EF12641884E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEDF13C-7553-4EB8-8B95-EF12641884E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AB53A2-9036-4A6F-9A14-BE332CF3A0C2}
+	EndGlobalSection
+EndGlobal
