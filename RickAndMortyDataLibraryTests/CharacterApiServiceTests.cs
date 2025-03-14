@@ -19,7 +19,7 @@ public class CharacterApiServiceTests
         _loggerMock = new Mock<ILogger<CharacterApiService>>();
         _configurationMock = new Mock<IConfiguration>();
 
-        _configurationMock.Setup(c => c["APIUrl"]).Returns("https://rickandmortyapi.com/api/character");
+        _configurationMock.Setup(c => c["APIUrl"]).Returns("https://test.api.com/api/character");
 
         _httpClient = new HttpClient(new MockHttpMessageHandler()); // MockHttpMessageHandler to simulate API calls
         _apiService = new CharacterApiService(_httpClient, _configurationMock.Object, _loggerMock.Object);

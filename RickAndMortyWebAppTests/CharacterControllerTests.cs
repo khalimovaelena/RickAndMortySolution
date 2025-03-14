@@ -95,7 +95,7 @@ namespace RickAndMortyWebApp.Tests
             // Arrange
             var characters = new List<Character>
             {
-                new Character { Id = 1, Name = "Rick Sanchez", Status = "Alive", LocationPlanet = "Earth" }
+                new Character { Id = 1, Name = "Rick Sanchez", Status = "Alive", LocationPlanet = "Earth 123" }
             };
 
             var result = new CharacterProviderResult(characters, DataSources.API);
